@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'GothamRoundedBold';
+    src: url("../fonts/GothamRoundedBold.otf");
+}
+
+@font-face {
+    font-family: 'GothamRoundedBook';
+    src: url("../fonts/GothamRoundedBook.otf");
+}
+
+@font-face {
+    font-family: 'GothamRoundedMedium';
+    src: url("../fonts/GothamRoundedMedium.otf");
+}

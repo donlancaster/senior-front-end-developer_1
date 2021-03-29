@@ -1,0 +1,534 @@
+@charset "UTF-8";
+@import 'fonts.css';
+
+
+.main {
+    width: 1280px;
+}
+
+header {
+    margin: 40px 0px 0px 0px;
+    width: 1280px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: "GothamRoundedMedium";
+    justify-content: center;
+    display: flex;
+}
+
+.menu-bar {
+    margin: 0px 19.25% 0px 21.25%;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+
+nav {
+    display: flex;
+}
+
+.nav {
+    margin-top: 25px;
+}
+
+.nav-home {
+    margin: 25px 0px 0px 0px;
+}
+
+.nav-photoapp {
+    margin-right: 17.5px;
+}
+
+.nav-camera {
+    margin: 0px 13.5px 0px 19.5px;
+}
+
+.nav-design {
+    margin-right: 6px;
+    margin-left: 21px;
+}
+
+.nav-download {
+    margin-left: 6px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease 0s;
+}
+
+a:hover {
+    color: #16a085;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+h2 {
+    margin-block-end: 10px;
+    margin-block-start: 0px;
+    color: #16a085;
+    text-transform: uppercase;
+    font-size: 13.5pt;
+    text-indent: 0px;
+    font-weight: bold;
+}
+
+.your_life_a_photo_page {
+    height: 745px;
+    background: url("../img/background.png") center/cover no-repeat;
+}
+
+.your_life_class {
+    padding: 343px 0px 0px 0px;
+    color: white;
+    text-align: center;
+}
+
+.your_life_large {
+    line-height: 18pt;
+    font-size: 27pt;
+    letter-spacing: 5.3px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: white;
+}
+
+.your_life_small {
+    margin-top: 22px;
+    margin-bottom: 29px;
+    margin-left: 1px;
+    text-transform: lowercase;
+    font-family: "GothamRoundedMedium";
+    font-size: 12pt;
+    line-height: 8pt;
+}
+
+button {
+    background-color: #16a085;
+    font-family: "GothamRoundedMedium";
+    font-size: 9pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 3px;
+    padding: 22px 30px 19px;
+    transition: background-color 1.3s ease 0s;
+    border-width: 0px;
+    line-height: 6pt;
+}
+
+.button1 {
+    border: none;
+}
+
+button:hover {
+    background-color: #1abc9c;
+    cursor: pointer;
+}
+
+.socials {
+    margin-top: 213px;
+    justify-content: space-between;
+    margin-left: 590px;
+    margin-right: 590px;
+
+}
+
+._soc {
+    transition: all 0.3s ease 0s;
+}
+
+._soc:hover {
+    padding-top: 5px;
+}
+
+.rappresent_page {
+    background: url(../img/phone1.png);
+    display: flex;
+    height: 492px;
+    text-align: left;
+}
+
+.rappresent_class {
+    margin-left: 10%;
+    margin-top: 109px;
+}
+
+p {
+    font-family: "GothamRoundedBook";
+    font-size: 9pt;
+    line-height: 18pt;
+}
+
+.rappresent_title{
+    letter-spacing: 2px;
+}
+
+.rappresent_text {
+    letter-spacing: 1.5px;
+    margin-top: 39px;
+    margin-bottom: 41px;
+    margin-left: -1px;
+}
+
+strong {
+    font-family: "GothamRoundedBold";
+}
+
+.get_started_button {
+    padding: 24px 43px 19px;
+    margin-left: 1px;
+}
+
+
+.design_page {
+    background-color: white;
+    display: flex;
+    background: url(../img/phone2.png);
+    height: 558px;
+}
+
+.design_class {
+    margin-left: 766px;
+    margin-top: 142px;
+}
+
+.design_title {
+    line-height: 12pt;
+}
+
+.design_text {
+    margin-top: 35px;
+    line-height: 17pt;
+    margin-left: 2px;
+    margin-bottom: 37px;
+}
+
+.learn_more_button {
+    padding: 22px 47px 21px 43px;
+    margin-left: 1px;
+    border-radius: 0px;
+    margin-bottom: 39px;
+}
+
+.design_pages_list {
+    display: flex;
+    font-weight: bold;
+    margin-left: 1px;
+}
+
+.design_page {
+    letter-spacing: 2px;
+}
+
+.design_arrows {
+    margin-left: 1px;
+    /*
+?????????????????????????????????????????????????/
+*/
+    margin-top: -546px;
+    overflow: hidden;
+    position: relative;
+/*
+?????????????????????????????????????????????????/
+*/
+}
+/*
+ne znau po4emy strelki yleteli
+
+ */
+.arrow {
+    transition: all 0.3s ease 0s;
+    overflow: hidden;
+    position: relative;
+}
+
+.right_arrow {
+    margin-left: 14px;
+    overflow: hidden;
+    position: relative;
+}
+
+.arrow:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.our_community_page {
+    background-color: #f5f6f7;
+    display: flex;
+    height: 484px;
+}
+
+.our_community_class {
+    margin-top: 95px;
+    margin-left: 128px;
+    display: flex;
+}
+
+.our_community_text_filler {
+    margin-top: 70px;
+    align-content: center;
+}
+
+.our_community_logo {
+    margin-left: 45px;
+}
+
+.our_community_title {
+    color: black;
+    letter-spacing: 1px;
+    font-family: "GothamRoundedBold";
+    font-size: 12pt;
+    line-height: 8pt;
+    margin-top: 29px;
+    margin-bottom: 23px;
+}
+
+.our_community_text {
+    font-size: 8pt;
+    font-family: "GothamRoundedBook";
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 9pt;
+    margin-left: 1px;
+}
+
+.our_community_images_filler {
+    margin-left: 80px;
+    width: 765px;
+}
+
+.our_community_arrows {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 6px;
+}
+
+.our_community_left_arrow {
+    margin-right: 16px;
+}
+
+.our_community_images {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.subscribe_page {
+    background: url("../img/subscribe_background.png");
+    display: flex;
+    height: 789px;
+    justify-content: center;
+}
+
+.subscribe_class {
+    margin-top: 353px;
+    margin-left: 4px;
+}
+
+.subscribe_title {
+    color: white;
+    font-size: 18pt;
+    line-height: 12pt;
+}
+
+::placeholder {
+    text-transform: uppercase;
+    color: black;
+    font-family: "GothamRoundedMedium";
+    font-weight: normal;
+    font-size: 12pt;
+    letter-spacing: 0.15em;
+}
+
+.email_field {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    margin-left: -7px;
+}
+
+.email {
+    border-radius: 3px 0px 0px 3px;
+    border-width: 0px;
+    padding-left: 22px;
+    width: 256px;
+    height: 58px;
+    font-size: 12pt;
+    font-family: "GothamRoundedMedium";
+}
+
+
+.confirm {
+    border-width: 0px;
+    border-radius: 0px 3px 3px 0px;
+    background-color: #16a085;
+    padding: 24px 20px 20px 23px;
+    width: 20px;
+    height: 16px;
+    transition: background-color 0.3s ease 0s;
+}
+
+.confirm:hover {
+    background-color: #1abc9c;
+}
+
+
+.download_page {
+    background-color: #f5f6f7;
+    height: 396px;
+    display: flex;
+    justify-content: center;
+}
+
+.download_class {
+    margin-top: 93px;
+    text-align: center;
+}
+
+.download_title {
+    color: black;
+    font-size: 15pt;
+    line-height: 10pt;
+    letter-spacing: 2px;
+}
+
+.download_text {
+    text-transform: uppercase;
+    margin-top: 11px;
+    font-family: "GothamRoundedBook";
+    letter-spacing: 1px;
+    line-height: 17pt;
+}
+
+.download_links {
+    margin-top: 41px;
+    margin-left: -2px;
+    display: flex;
+    justify-content: center;
+}
+
+.download_apple {
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+}
+
+.download_apple:hover {
+    transform: scale(1.1);
+}
+
+.applestore_button {
+    border-radius: 3px 0px 0px 3px;
+    background-color: #1abc9c;
+    width: 240px;
+    height: 56px;
+    font-size: 12pt;
+    line-height: 8pt;
+    padding-left: 23px;
+    padding-right: 75px;
+    padding-top: 24px;
+}
+
+.apple_icon {
+    border-radius: 0px 3px 3px 0px;
+    height: 56px;
+    width: 56px;
+    padding-top: 16px;
+    padding-left: 17px
+}
+
+.download_android {
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+    margin-left: 26px;
+}
+
+.download_android:hover {
+    transform: scale(1.1);
+}
+
+.googleplay_button {
+    border-radius: 3px 0px 0px 3px;
+    background-color: #1abc9c;
+    width: 240px;
+    height: 56px;
+    font-size: 13.5pt;
+    line-height: 9pt;
+    padding-left: 29px;
+    padding-right: 66px;
+    padding-top: 20px;
+}
+
+.android_icon {
+    border-radius: 0px 3px 3px 0px;
+    height: 56px;
+    width: 56px;
+
+    padding-top: 14px;
+    padding-left: 16px;
+}
+
+
+footer {
+    background-color: white;
+    display: flex;
+    height: 131px;
+}
+
+.footer_class {
+    margin-top: 38px;
+    display: flex;
+}
+
+
+.footer_text {
+    margin-top: 10px;
+    margin-left: 126px;
+    margin-right: 575px;
+    white-space: nowrap;
+}
+
+.footer_link {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 9pt;
+    line-height: 7pt;
+}
+
+
+.vslash {
+    color: #16a085;
+    margin-left: 6.5px;
+    margin-right: 6.5px;
+    margin-top: -1px;
+}
+
+
+.copyright {
+    font-family: "GothamRoundedBook";
+    font-weight: bold;
+    font-size: 10.5pt;
+    line-height: 7pt;
+    margin-top: 27px;
+}
